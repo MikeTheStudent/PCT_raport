@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  20 OCT 2025 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  24 OCT 2025 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,7 +323,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (C:\Users\ereur\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
-) (Main.aux)
+) (Main.aux
+
+LaTeX Warning: Label `fig:speed-torque-response' multiply defined.
+
+)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -403,7 +407,7 @@ Package hyperref Info: Link coloring OFF on input line 50.
 \@outlinefile=\write3
 \openout3 = `Main.out'.
 
-<logo-feup.png, id=87, 162.3666pt x 183.5658pt>
+<logo-feup.png, id=67, 162.3666pt x 183.5658pt>
 File: logo-feup.png Graphic file (type png)
 <use logo-feup.png>
 Package pdftex.def Info: logo-feup.png  used on input line 66.
@@ -445,7 +449,7 @@ Chapter 1.
 [2
 
 ]
-<OverviewSim.png, id=136, 386.6445pt x 142.73325pt>
+<OverviewSim.png, id=111, 386.6445pt x 142.73325pt>
 File: OverviewSim.png Graphic file (type png)
 <use OverviewSim.png>
 Package pdftex.def Info: OverviewSim.png  used on input line 146.
@@ -461,7 +465,7 @@ l.181     \end{align*}
 
 [4]
 Chapter 2.
-<1ASim.png, id=148, 520.94624pt x 328.22626pt>
+<1ASim.png, id=123, 520.94624pt x 328.22626pt>
 File: 1ASim.png Graphic file (type png)
 <use 1ASim.png>
 Package pdftex.def Info: 1ASim.png  used on input line 202.
@@ -476,12 +480,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \__shipout_drop_firstpage_...
 l.212 
        <./1ASim.png>]
-<fft300hz.png, id=156, 582.37575pt x 160.1985pt>
+<fft300hz.png, id=131, 582.37575pt x 160.1985pt>
 File: fft300hz.png Graphic file (type png)
 <use fft300hz.png>
 Package pdftex.def Info: fft300hz.png  used on input line 247.
 (pdftex.def)             Requested size: 218.51521pt x 60.1085pt.
-<fft3000hz.png, id=157, 581.7735pt x 160.80075pt>
+<fft3000hz.png, id=132, 581.7735pt x 160.80075pt>
 File: fft3000hz.png Graphic file (type png)
 <use fft3000hz.png>
 Package pdftex.def Info: fft3000hz.png  used on input line 253.
@@ -499,17 +503,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) h
                                                   \__shipout_drop_firstpage_...
 l.258 \newpage
                <./fft300hz.png> <./fft3000hz.png>]
-<2Y30Hz.png, id=173, 1144.87724pt x 537.207pt>
+<2Y30Hz.png, id=148, 1144.87724pt x 537.207pt>
 File: 2Y30Hz.png Graphic file (type png)
 <use 2Y30Hz.png>
 Package pdftex.def Info: 2Y30Hz.png  used on input line 269.
 (pdftex.def)             Requested size: 364.19667pt x 170.89331pt.
-<I1VLL1.png, id=174, 1147.8885pt x 505.89pt>
+<I1VLL1.png, id=149, 1147.8885pt x 505.89pt>
 File: I1VLL1.png Graphic file (type png)
 <use I1VLL1.png>
 Package pdftex.def Info: I1VLL1.png  used on input line 280.
 (pdftex.def)             Requested size: 364.19667pt x 160.50635pt.
-<FFTspectrum1D.png, id=175, 1143.0705pt x 503.481pt>
+<FFTspectrum1D.png, id=150, 1143.0705pt x 503.481pt>
 File: FFTspectrum1D.png Graphic file (type png)
 <use FFTspectrum1D.png>
 Package pdftex.def Info: FFTspectrum1D.png  used on input line 286.
@@ -522,7 +526,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) h
                                                   \__shipout_drop_firstpage_...
 l.302 \end{table}
                   <./2Y30Hz.png> <./I1VLL1.png>]
-<1ESimSpeedTorque.png, id=183, 1136.44576pt x 504.6855pt>
+<1ESimSpeedTorque.png, id=158, 1136.44576pt x 504.6855pt>
 File: 1ESimSpeedTorque.png Graphic file (type png)
 <use 1ESimSpeedTorque.png>
 Package pdftex.def Info: 1ESimSpeedTorque.png  used on input line 319.
@@ -545,88 +549,122 @@ l.323
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.327 \chapter
-              {Simulation Task 2} <./1ESimSpeedTorque.png>]
-Chapter 3.
-<Matlab2b.png, id=197, 557.9244pt x 359.4228pt>
-File: Matlab2b.png Graphic file (type png)
-<use Matlab2b.png>
-Package pdftex.def Info: Matlab2b.png  used on input line 342.
-(pdftex.def)             Requested size: 364.19667pt x 234.62569pt.
+l.324 \newpage
+               <./1ESimSpeedTorque.png>]
+<Lab2Model.png, id=176, 814.54312pt x 257.46187pt>
+File: Lab2Model.png Graphic file (type png)
+<use Lab2Model.png>
+Package pdftex.def Info: Lab2Model.png  used on input line 337.
+(pdftex.def)             Requested size: 328.63115pt x 103.8747pt.
+<GraphsLab2.png, id=177, 1428.83812pt x 668.4975pt>
+File: GraphsLab2.png Graphic file (type png)
+<use GraphsLab2.png>
+Package pdftex.def Info: GraphsLab2.png  used on input line 344.
+(pdftex.def)             Requested size: 364.19667pt x 170.38809pt.
 
 
 [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.348 
+       <./Lab2Model.png>]
+<CurrenLab2.png, id=186, 1430.34375pt x 657.95813pt>
+File: CurrenLab2.png Graphic file (type png)
+<use CurrenLab2.png>
+Package pdftex.def Info: CurrenLab2.png  used on input line 351.
+(pdftex.def)             Requested size: 364.19667pt x 167.53113pt.
+
+
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.356 \chapter
+              {Simulation Task 2}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.356 \chapter
+              {Simulation Task 2} <./CurrenLab2.png> <./GraphsLab2.png>]
+Chapter 3.
+<Matlab2b.png, id=194, 557.9244pt x 359.4228pt>
+File: Matlab2b.png Graphic file (type png)
+<use Matlab2b.png>
+Package pdftex.def Info: Matlab2b.png  used on input line 371.
+(pdftex.def)             Requested size: 364.19667pt x 234.62569pt.
+
+
+[12
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.346 \newpage
+l.375 \newpage
                <./Matlab2b.png (PNG copy)>]
-<GainCtrl.png, id=206, 431.36156pt x 124.96687pt>
+<GainCtrl.png, id=203, 431.36156pt x 124.96687pt>
 File: GainCtrl.png Graphic file (type png)
 <use GainCtrl.png>
-Package pdftex.def Info: GainCtrl.png  used on input line 357.
+Package pdftex.def Info: GainCtrl.png  used on input line 386.
 (pdftex.def)             Requested size: 364.19667pt x 105.513pt.
-<2CSpeed.png, id=207, 837.88031pt x 324.46219pt>
+<2CSpeed.png, id=204, 837.88031pt x 324.46219pt>
 File: 2CSpeed.png Graphic file (type png)
 <use 2CSpeed.png>
-Package pdftex.def Info: 2CSpeed.png  used on input line 364.
+Package pdftex.def Info: 2CSpeed.png  used on input line 393.
 (pdftex.def)             Requested size: 409.71692pt x 158.65614pt.
-<2CModulation.png, id=208, 833.36343pt x 321.45094pt>
+<2CModulation.png, id=205, 833.36343pt x 321.45094pt>
 File: 2CModulation.png Graphic file (type png)
 <use 2CModulation.png>
-Package pdftex.def Info: 2CModulation.png  used on input line 371.
+Package pdftex.def Info: 2CModulation.png  used on input line 400.
 (pdftex.def)             Requested size: 409.71692pt x 158.04207pt.
 
 
-[11
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.376 \chapter
-              {Results and Discussion}
+l.408 \chapter
+              {Summary}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.376 \chapter
-              {Results and Discussion}
+l.408 \chapter
+              {Summary}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.376 \chapter
-              {Results and Discussion} <./GainCtrl.png> <./2CSpeed.png> <./2CModulation.png>]
+l.408 \chapter
+              {Summary} <./GainCtrl.png> <./2CSpeed.png> <./2CModulation.png>]
 Chapter 4.
 
 
-[12
-
-]
-Chapter 5.
-
-
-[13
+[14
 
 ] (Main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 74284BD48064BA4CCDAC34C266091515;2391.
+(rerunfilecheck)             Checksum: 5411B28D51E59C29724618B3611E5C18;1818.
  ) 
 Here is how much of TeX's memory you used:
- 11680 strings out of 468081
- 178698 string characters out of 5425788
- 596536 words of memory out of 5000000
- 40146 multiletter control sequences out of 15000+600000
+ 11696 strings out of 468081
+ 179074 string characters out of 5425788
+ 596631 words of memory out of 5000000
+ 40163 multiletter control sequences out of 15000+600000
  639632 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,447b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\ereur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/ereur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ereur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ereur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ereur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ereur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (15 pages, 787988 bytes).
+Output written on Main.pdf (16 pages, 1009924 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

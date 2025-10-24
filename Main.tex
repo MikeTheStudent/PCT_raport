@@ -321,8 +321,37 @@ Using the simulation setup from Task 1.A, we analyzed the induction machine's pe
     \label{fig:speed-torque-response}
 \end{figure}
 
+\newpage
 \section{Task 1F}
 \label{Task 1F}
+In laboratory 2 we were required to implement operational induction machine with open loop control.
+With ideal sources of AC voltage and frequency. In this figure {\ref{fig:ideal-sources}} we can see the simulation setup used to achieve this.
+Results for the same parameter as in the section \ref{sec:task-1e} are presented in the figure {\ref{fig:speed-torque-response}}.
+We can observe that the machine oscilate around the reference speed of 500 rpm which can be coused by resonance frequency of the machine.
+After achieving next state of 1000 rpm machine stabilizes better around the reference value.
+Additional torque of 2500 Nm is applied at time t = 3.5s as in previous task, and does not affect the speed significantly due to the ideal voltage source.
+On this graph {\ref{fig:current-line-a}} we can see the behavior of the current in line A of the machine, which shows a more sinusoidal waveform compared to the previous task.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.55\paperwidth,keepaspectratio,angle=90]{Lab2Model.png}
+    \caption{Lab 2 Model}
+    \label{fig:ideal-sources}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{GraphsLab2.png}
+    \caption{Speed and Torque response of the induction machine under open loop control with ideal AC sources.}
+    \label{fig:speed-torque-response}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{CurrenLab2.png}
+    \caption{Current in line A of the machine}
+    \label{fig:current-line-a}
+\end{figure}
 
 \chapter{Simulation Task 2}
 \label{sec:simulation-task-2}
@@ -373,27 +402,14 @@ Values of the error signal and modulation are shown in the figure \ref{fig:modul
     \label{fig:modulation-strategy}
 \end{figure}
 
-\chapter{Results and Discussion}
-\label{ch:results}
 
-Present your results and discuss their implications.
 
-\section{Results}
-Present your findings here.
 
-\section{Discussion}
-Discuss the implications of your results.
-
-\chapter{Conclusion}
-\label{ch:conclusion}
-
-Summarize your findings and provide concluding remarks.
-
-\section{Summary}
-Provide a summary of your work.
-
-\section{Future Work}
-Suggest areas for future research or development.
+\chapter{Summary}
+\label{ch:summary}
+This laboratory represented an introduction to the operation of the induction motor.
+We were able to observe the behavior of the machine under different supply conditions.
+Open loop control with ideal sources provided the best performance.
 
 % Bibliography (uncomment if you have references)
 % \bibliographystyle{plain}
